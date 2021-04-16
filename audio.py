@@ -3,7 +3,7 @@ import speech_recognition as sr
 #intializing recognizer and microphone
 def listen():
   r=sr.Recognizer()
-  mic=sr.Microphone()
+  mic=sr.Microphone()#default mic
   print(mic)
   with mic as sou:
       #listening to background noise for 1 second
